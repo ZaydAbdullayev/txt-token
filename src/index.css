@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+:root {
+  color-scheme: light dark;
+  color: #2b2b2b;
+  background-color: #e7dfcc;
+  letter-spacing: 0.05rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: "Courier New", monospace;
+  background-color: #e7dfcc;
+  color: #2a2a2a;
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #e7dfcc #1c1c1c62;
+  }
+  *::-webkit-scrollbar {
+    width: 0.1rem;
+    background-color: #e7dfcc;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #1c1c1c62;
+    border-radius: 0.5rem;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: #e7dfcc;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #1c1c1c;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #3c3c3c;
+  border-radius: 0.5rem;
+}
+
+input {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
