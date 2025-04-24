@@ -3,6 +3,33 @@
   background-color: #e7dfcc;
 }
 
+.main-title {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 16px;
+  font-family: "Courier New", monospace;
+  text-shadow: 1px 1px #d5cbb1, -1px -1px #68655b, 1px -1px #726e61,
+    -1px 1px #8b8778, 0 0 5px #d5cbb1, 0 0 10px #b3ab97, 0 0 15px #b6ae99;
+  -webkit-text-fill-color: #f0e9d3;
+  -webkit-text-stroke: 0.5px #d5cbb1;
+  text-decoration: underline;
+  text-decoration-color: #d5cbb1;
+  text-decoration-thickness: 2px;
+  text-decoration-style: dashed;
+  text-underline-offset: 4px;
+  letter-spacing: 0.05rem;
+  line-height: 1.2;
+  padding: 8px 0;
+  background-color: #f0e9d3;
+  border-radius: 8px;
+  box-shadow: inset 1px 1px #fff, inset -1px -1px #8b8778;
+  border: 2px solid #d5cbb1;
+}
+
 .txt-app {
   max-width: 880px;
   margin: 40px auto;

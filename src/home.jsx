@@ -37,9 +37,10 @@ export const App = () => {
 
   return (
     <div className="app-wrapper">
+      <h1 className="main-title">Solana TXT Token</h1>
       <div className="txt-app">
         <div className="window-header">
-          <span>Solana TXT Token</span>
+          <span>sol.txt</span>
           <span className="window-controls">
             <span>_</span> <span>☐</span> <span>×</span>
           </span>
