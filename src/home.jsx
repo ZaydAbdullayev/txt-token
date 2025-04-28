@@ -164,7 +164,11 @@ export const App = () => {
         <p>© 2023 TXT Token</p>
         <div className="links">
           <p className="target">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://x.com/solanatxt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Contact Us <RiTwitterXFill />
             </a>
           </p>
